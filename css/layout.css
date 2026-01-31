@@ -21,7 +21,7 @@
     display: grid;
     grid-template-columns: 1fr 1.6fr 1fr;
     gap: 0;
-    min-height: 540px;
+    min-height: 440px;
     border-radius: var(--radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-lg);
@@ -64,8 +64,9 @@
 @media (max-width: 1200px) {
     .hero__grid {
         grid-template-columns: 1fr 1.4fr 1fr;
-        min-height: 480px;
+        min-height: 400px;
     }
+
     .mr-grid {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -75,19 +76,24 @@
     .hero__grid {
         grid-template-columns: 1fr 1fr;
     }
+
     .hero__sidebar {
         display: none;
     }
+
     .reports__grid {
         grid-template-columns: 1fr;
     }
+
     .cat-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .op-grid,
     .voice-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .mr-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -98,12 +104,14 @@
         grid-template-columns: 1fr;
         grid-template-rows: 300px auto;
     }
+
     .cat-grid,
     .op-grid,
     .mr-grid,
     .voice-grid {
         grid-template-columns: 1fr;
     }
+
     .rp-card {
         grid-template-columns: 1fr;
     }
