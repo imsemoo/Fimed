@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="فيميد - المؤسسة الفلسطينية للإعلام - مؤسسة إعلامية تتفاعل مع الإعلام التركي">
+        <meta name="keywords" content="فيميد، فلسطين، القدس، تركيا، أخبار، إعلام">
+        <meta name="author" content="FiMED">
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="فيميد | المؤسسة الفلسطينية للإعلام">
+        <meta property="og:description" content="مؤسسة إعلامية تتفاعل مع الإعلام التركي">
+
+        <title>فيميد | المؤسسة الفلسطينية للإعلام</title>
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+            <!-- TOP BAR -->
+            <div class="top-bar">
+                <div class="container">
+                    <div class="top-bar__date">
+                        <i class="fa-regular fa-calendar-days"></i>
+                        السبت 01 شوال 1447 هـ — 31 يناير 2026 م
+                    </div>
+                    <div class="top-bar__links">
+                        <a href="#">من نحن</a>
+                        <a href="#">تواصل معنا</a>
+                        <a href="#">سياسة الخصوصية</a>
+                        <div class="top-bar__lang">
+                            <i class="fa-solid fa-globe"></i>
+                            Türkçe
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HEADER -->
+            <header class="header">
+                <div class="container">
+                    <button class="nav__toggle" id="navToggle" aria-label="القائمة">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a href="#" class="header__brand">
+                        <img src="images/logo.svg" alt="فيميد - FiMED" class="header__logo-img">
+                    </a>
+                    <div class="header__actions">
+                        <div class="header__search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="ابحث في التقارير والمقالات...">
+                        </div>
+                        <div class="header__social">
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- NAV -->
+            <nav class="nav" id="mainNav">
+                <div class="container">
+                    <ul class="nav__list">
+                        <li><a href="#" class="nav__link nav__link--active">الرئيسية</a></li>
+                        <li><a href="#" class="nav__link">فلسطين</a></li>
+                        <li><a href="#" class="nav__link">القدس</a></li>
+                        <li><a href="#" class="nav__link">تركيا</a></li>
+                        <li><a href="#" class="nav__link">العالم العربي</a></li>
+                        <li><a href="#" class="nav__link">فلسطينيو تركيا</a></li>
+                        <li><a href="#" class="nav__link">تقارير</a></li>
+                        <li><a href="#" class="nav__link">صوت فلسطين</a></li>
+                        <li><a href="#" class="nav__link">آراء ومقالات</a></li>
+                    </ul>
+                    <div class="nav__overlay"></div>
+                </div>
+            </nav>
+
+            <!-- TICKER -->
+            <div class="ticker">
+                <div class="ticker__label"><span class="ticker__dot"></span> آخر التقارير</div>
+                <div class="ticker__content">
+                    <div class="ticker__track">
+                        <span class="ticker__item">أردوغان يؤكد استعداد تركيا للقيام بدور تسهيلي لإنهاء الاشتباك في
+                            المنطقة</span>
+                        <span class="ticker__item">وفد من لجنة القدس وفلسطين يزور مقر الإفتاء في إسطنبول</span>
+                        <span class="ticker__item">الأمم المتحدة تدعو لوقف فوري لإطلاق النار في قطاع غزة</span>
+                        <span class="ticker__item">مؤتمر دولي في إسطنبول حول مستقبل القضية الفلسطينية</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HERO -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__grid animate-in">
+                        <div class="hero__text">
+                            <span class="hero__badge"><i class="fa-solid fa-bolt"></i> تقرير خاص</span>
+                            <h1 class="hero__title"><a href="#">الأسير المحرر رامي أبو زبيدة: يوميات الإجرام في سجن النسيان</a><span
+                                    class="hero__title-line"></span></h1>
+                            <p class="hero__excerpt">سجّل الأسير المحرر رامي أبو زبيدة شهادته بهذه الكلمات: "إنني أكتب
+                                هذه الشهادة لا بمداد الحبر، بل بمرارة الذكرى، أضعها وثيقة للتاريخ، وفاءً لإخوة لي لا
+                                يزالون يصارعون الموت البطيء خلف تلك القضبان..."</p>
+                            <div class="hero__meta">
+                                <span class="hero__meta-item"><i class="fa-regular fa-calendar"></i> 31 يناير 2026</span>
+                                <span class="hero__meta-item"><i class="fa-regular fa-clock"></i> 8 دقائق قراءة</span>
+                            </div>
+                            <a href="#" class="hero__read-more">اقرأ التقرير كاملاً <i class="fa-solid fa-arrow-left"></i></a>
+                        </div>
+                        <a href="#" class="hero__image">
+                            <div class="ph ph-1"></div>
+                            <div class="hero__image-grad"></div>
+                        </a>
+                        <div class="hero__sidebar">
+                            <a href="#" class="hero__sb-item">
+                                <div class="hero__sb-thumb">
+                                    <div class="ph ph-2"></div>
+                                </div>
+                                <div class="hero__sb-content">
+                                    <h3 class="hero__sb-title">الأسير عمر العبد ابن الأرض الذي اعتُقل في عمر الزهو...
+                                    </h3>
+                                    <p class="hero__sb-excerpt">منذ عام 2017، يقضي الأسير عمر العبد من بلدة كوبر حكماً
+                                        بالسجن المؤبد أربع مرات...</p><span class="hero__sb-date">22 ديسمبر 2025</span>
+                                </div>
+                            </a>
+                            <a href="#" class="hero__sb-item">
+                                <div class="hero__sb-thumb">
+                                    <div class="ph ph-3"></div>
+                                </div>
+                                <div class="hero__sb-content">
+                                    <h3 class="hero__sb-title">الأسير بهيج بدر: الأب المُعلّم والغائب القريب</h3>
+                                    <p class="hero__sb-excerpt">قصة عائلة الأسير بهيج بدر عمرها بعد 21 عاماً، وكذلك عمر
+                                        معاناتهم مع الاحتلال...</p><span class="hero__sb-date">28 نوفمبر 2025</span>
+                                </div>
+                            </a>
+                            <a href="#" class="hero__sb-item">
+                                <div class="hero__sb-thumb">
+                                    <div class="ph ph-4"></div>
+                                </div>
+                                <div class="hero__sb-content">
+                                    <h3 class="hero__sb-title">الأسير محمود زيدات: الصبر في الأسر، والصبر خارجه</h3>
+                                    <p class="hero__sb-excerpt">الأسير محمود زيدات هو واحد من ثلاثة أشقاء تغيّبهم
+                                        الزنازين...</p><span class="hero__sb-date">27 نوفمبر 2025</span>
+                                </div>
+                            </a>
+                            <a href="#" class="hero__sb-item">
+                                <div class="hero__sb-thumb">
+                                    <div class="ph ph-5"></div>
+                                </div>
+                                <div class="hero__sb-content">
+                                    <h3 class="hero__sb-title">الأسير أحمد زيدات: ابن لعائلة من المفقودين وراء جد...
+                                    </h3>
+                                    <p class="hero__sb-excerpt">في عتمة الزنازين، لا معلومة ولا خبر، ينقطع الحبل بين
+                                        الداخل وكل ما تركه من حياة...</p><span class="hero__sb-date">26 نوفمبر
+                                        2025</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AD BANNER 1 — بين الهيرو والتقارير -->
+            <div class="ad-banner">
+                <div class="container">
+                    <a href="#" class="ad-banner__link" target="_blank" rel="noopener">
+                        <img src="https://dummyimage.com/728x90/1B5E20/ffffff&text=إعلان+728x90" alt="إعلان" class="ad-banner__img">
+                    </a>
+                </div>
+            </div>
+
+            <!-- REPORTS -->
+            <section class="reports">
+                <div class="container">
+                    <div class="sh">
+                        <h2 class="sh__title"><i class="fa-solid fa-file-lines sh__icon"></i> تقارير</h2><a href="#" class="sh__more">عرض
+                            الكل <i class="fa-solid fa-arrow-left sh__arrow"></i></a>
+                    </div>
+                    <div class="reports__grid">
+                        <a href="#" class="rp-feat animate-in">
+                            <div class="ph ph-3"></div>
+                            <div class="rp-feat__ov"><span class="hero__badge">تقرير مطوّل</span>
+                                <h3 class="rp-feat__title">تقرير شامل: واقع الأسرى الفلسطينيين في السجون الإسرائيلية —
+                                    شهادات وأرقام</h3>
+                                <p class="rp-feat__excerpt">يرصد هذا التقرير أوضاع آلاف الأسرى الفلسطينيين من خلال
+                                    شهادات حية وإحصائيات موثقة حول ظروف الاعتقال.</p>
+                                <div class="rp-feat__meta"><span>منذ يومين</span><span>•</span><span>تقرير خاص</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="rp-list">
+                            <a href="#" class="rp-card animate-in animate-delay-1">
+                                <div class="rp-card__img">
+                                    <div class="ph ph-1" style="min-height:120px;"></div>
+                                </div>
+                                <div class="rp-card__body"><span class="rp-card__cat">تقرير ميداني</span>
+                                    <h3 class="rp-card__title">"القدس المصغرة".. مجسم متحرك للأقصى لتعريف الأتراك بأبرز
+                                        معالمه</h3>
+                                    <div class="rp-card__meta"><span class="rp-card__meta-i"><i class="fa-regular fa-clock"></i> منذ 3 أيام</span><span class="rp-card__meta-i"><i class="fa-regular fa-eye"></i> 1,245</span></div>
+                                </div>
+                            </a>
+                            <a href="#" class="rp-card animate-in animate-delay-2">
+                                <div class="rp-card__img">
+                                    <div class="ph ph-4" style="min-height:120px;"></div>
+                                </div>
+                                <div class="rp-card__body"><span class="rp-card__cat">تحقيق</span>
+                                    <h3 class="rp-card__title">واقع الشباب الفلسطيني في أوروبا: بين تحديات الاندماج
+                                        والحفاظ على الهوية</h3>
+                                    <div class="rp-card__meta"><span class="rp-card__meta-i"><i class="fa-regular fa-clock"></i> منذ 5 أيام</span><span class="rp-card__meta-i"><i class="fa-regular fa-eye"></i> 892</span></div>
+                                </div>
+                            </a>
+                            <a href="#" class="rp-card animate-in animate-delay-3">
+                                <div class="rp-card__img">
+                                    <div class="ph ph-6" style="min-height:120px;"></div>
+                                </div>
+                                <div class="rp-card__body"><span class="rp-card__cat">تقرير</span>
+                                    <h3 class="rp-card__title">نحو رؤية استراتيجية: اتحاد الأكاديميين الفلسطينيين يرسم
+                                        خارطة طريق جديدة</h3>
+                                    <div class="rp-card__meta"><span class="rp-card__meta-i"><i class="fa-regular fa-clock"></i> منذ أسبوع</span><span class="rp-card__meta-i"><i class="fa-regular fa-eye"></i> 634</span></div>
+                                </div>
+                            </a>
+                            <a href="#" class="rp-card animate-in animate-delay-4">
+                                <div class="rp-card__img">
+                                    <div class="ph ph-2" style="min-height:120px;"></div>
+                                </div>
+                                <div class="rp-card__body"><span class="rp-card__cat">ملف خاص</span>
+                                    <h3 class="rp-card__title">القمة العربية الإسلامية: ماذا حققت للقضية الفلسطينية؟
+                                        قراءة تحليلية</h3>
+                                    <div class="rp-card__meta"><span class="rp-card__meta-i"><i class="fa-regular fa-clock"></i> منذ أسبوعين</span><span class="rp-card__meta-i"><i class="fa-regular fa-eye"></i> 1,102</span></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- بتوقيت القدس -->
+            <section class="quds">
+                <div class="container">
+                    <div class="quds__header">
+                        <div class="quds__label">
+                            <span class="quds__icon"><i class="fa-solid fa-mosque"></i></span>
+                            <h2 class="quds__title">بتوقيت القدس</h2>
+                        </div>
+                        <a href="#" class="quds__view-all">
+                            عرض الكل
+                            <span class="quds__view-arrow"><i class="fa-solid fa-arrow-left"></i></span>
+                        </a>
+                    </div>
+                    
+                    <div class="quds__bento">
+                        <!-- Main Featured -->
+                        <article class="quds__main">
+                            <div class="quds__main-bg">
+                                <div class="ph ph-3"></div>
+                            </div>
+                            <div class="quds__main-overlay"></div>
+                            <div class="quds__main-content">
+                                <span class="quds__tag">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    من قلب القدس
+                                </span>
+                                <h3 class="quds__main-title">الاحتلال يصعّد اقتحاماته للمسجد الأقصى: تفاصيل ومخططات التهويد الجديدة</h3>
+                                <p class="quds__main-excerpt">تتصاعد انتهاكات الاحتلال في المسجد الأقصى المبارك مع اقتحامات يومية للمستوطنين بحماية شرطة الاحتلال.</p>
+                                <div class="quds__main-footer">
+                                    <span class="quds__main-date"><i class="fa-regular fa-clock"></i> منذ يوم</span>
+                                    <a href="#" class="quds__main-link">اقرأ التقرير <i class="fa-solid fa-chevron-left"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <!-- Secondary Card 1 -->
+                        <article class="quds__card quds__card--1">
+                            <div class="quds__card-img">
+                                <div class="ph ph-5"></div>
+                            </div>
+                            <div class="quds__card-body">
+                                <h4 class="quds__card-title">بلدية الاحتلال تصادق على مخطط استيطاني جديد في سلوان</h4>
+                                <span class="quds__card-meta">منذ 3 أيام</span>
+                            </div>
+                        </article>
+                        
+                        <!-- Secondary Card 2 -->
+                        <a href="#" class="quds__card quds__card--2">
+                            <div class="quds__card-img">
+                                <div class="ph ph-1"></div>
+                            </div>
+                            <div class="quds__card-body">
+                                <h4 class="quds__card-title">المقدسيون يتصدون لمحاولات التهجير القسري من حي الشيخ جراح</h4>
+                                <span class="quds__card-meta">منذ 4 أيام</span>
+                            </div>
+                        </a>
+                        
+                        <!-- Stats Card -->
+                        <article class="quds__stats">
+                            <div class="quds__stats-number">847</div>
+                            <div class="quds__stats-label">مستوطناً اقتحموا الأقصى</div>
+                            <div class="quds__stats-period">خلال الأسبوع الماضي</div>
+                            <div class="quds__stats-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        </article>
+                        
+                        <!-- List Cards -->
+                        <div class="quds__list">
+                            <a href="#" class="quds__list-item">
+                                <span class="quds__list-num">01</span>
+                                <div class="quds__list-content">
+                                    <h5 class="quds__list-title">خبراء آثار يحذرون: حفريات الاحتلال تهدد أساسات المسجد الأقصى</h5>
+                                    <span class="quds__list-meta">منذ أسبوع</span>
+                                </div>
+                            </a>
+                            <a href="#" class="quds__list-item">
+                                <span class="quds__list-num">02</span>
+                                <div class="quds__list-content">
+                                    <h5 class="quds__list-title">مؤتمر دولي يطالب بحماية التراث المعماري الإسلامي في البلدة القديمة</h5>
+                                    <span class="quds__list-meta">منذ 5 أيام</span>
+                                </div>
+                            </a>
+                            <a href="#" class="quds__list-item">
+                                <span class="quds__list-num">03</span>
+                                <div class="quds__list-content">
+                                    <h5 class="quds__list-title">شهادات مقدسية: كيف يعيش سكان العيسوية تحت الحصار اليومي؟</h5>
+                                    <span class="quds__list-meta">منذ 3 أيام</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AD BANNER 2 — بين بتوقيت القدس وصوت فلسطين -->
+            <div class="ad-banner ad-banner--tall">
+                <div class="container">
+                    <a href="#" class="ad-banner__link" target="_blank" rel="noopener">
+                        <img src="https://dummyimage.com/970x250/B71C1C/ffffff&text=إعلان+970x250" alt="إعلان" class="ad-banner__img">
+                    </a>
+                </div>
+            </div>
+
+            <!-- صوت فلسطين -->
+            <section class="voice-section">
+                <div class="container">
+                    <div class="sh sh--voice">
+                        <h2 class="sh__title" style="color:#fff;"><i class="fa-solid fa-microphone sh__icon sh__icon--voice"></i> صوت
+                            فلسطين</h2><a href="#" class="sh__more sh__more--voice">عرض الكل <i class="fa-solid fa-arrow-left sh__arrow"></i></a>
+                    </div>
+                    <div class="voice-grid">
+                        <a href="#" class="voice-card animate-in animate-delay-1">
+                            <span class="voice-card__type voice-card__type--testimony">شهادة حيّة</span>
+                            <div class="voice-card__eq"><span class="voice-card__eq-bar"></span><span
+                                    class="voice-card__eq-bar"></span><span class="voice-card__eq-bar"></span><span
+                                    class="voice-card__eq-bar"></span><span class="voice-card__eq-bar"></span></div>
+                            <h3 class="voice-card__title">"لم أرَ أطفالي منذ 7 سنوات".. شهادة أم أسير من نابلس</h3>
+                            <p class="voice-card__text">تروي أم محمد قصة انتظارها الطويل لابنها المعتقل في سجون
+                                الاحتلال، وكيف تتحول السنوات إلى جدران من الصمت والألم.</p>
+                            <div class="voice-card__footer">
+                                <div class="voice-card__author">
+                                    <div class="voice-card__avatar">
+                                        <div class="ph-av"></div>
+                                    </div>
+                                    <div>
+                                        <div class="voice-card__author-name">أم محمد العايدي</div>
+                                        <div class="voice-card__date">منذ يومين</div>
+                                    </div>
+                                </div>
+                                <div class="voice-card__play"><svg width="16" height="16" viewBox="0 0 24 24"
+                                        fill="#fff">
+                                        <polygon points="5 3 19 12 5 21 5 3" />
+                                    </svg></div>
+                            </div>
+                        </a>
+                        <a href="#" class="voice-card animate-in animate-delay-2">
+                            <span class="voice-card__type voice-card__type--interview">حوار</span>
+                            <div class="voice-card__eq"><span class="voice-card__eq-bar"></span><span
+                                    class="voice-card__eq-bar"></span><span class="voice-card__eq-bar"></span><span
+                                    class="voice-card__eq-bar"></span><span class="voice-card__eq-bar"></span></div>
+                            <h3 class="voice-card__title">د. عبد الرحمن أبو شمالة: "الإعلام الفلسطيني في تركيا يحتاج
+                                لثورة رقمية"</h3>
+                            <p class="voice-card__text">في حوار خاص مع فيميد، يتحدث الباحث الإعلامي عن واقع الإعلام
+                                الفلسطيني في الشتات وفرص التطور في العصر الرقمي.</p>
+                            <div class="voice-card__footer">
+                                <div class="voice-card__author">
+                                    <div class="voice-card__avatar">
+                                        <div class="ph-av"></div>
+                                    </div>
+                                    <div>
+                                        <div class="voice-card__author-name">د. عبد الرحمن أبو شمالة</div>
+                                        <div class="voice-card__date">منذ 4 أيام</div>
+                                    </div>
+                                </div>
+                                <div class="voice-card__play"><svg width="16" height="16" viewBox="0 0 24 24"
+                                        fill="#fff">
+                                        <polygon points="5 3 19 12 5 21 5 3" />
+                                    </svg></div>
+                            </div>
+                        </a>
+                        <a href="#" class="voice-card animate-in animate-delay-3">
+                            <span class="voice-card__type voice-card__type--story">قصة إنسانية</span>
+                            <div class="voice-card__eq"><span class="voice-card__eq-bar"></span><span
+                                    class="voice-card__eq-bar"></span><span class="voice-card__eq-bar"></span><span
+                                    class="voice-card__eq-bar"></span><span class="voice-card__eq-bar"></span></div>
+                            <h3 class="voice-card__title">من غزة إلى إسطنبول: رحلة عائلة فلسطينية بحثاً عن الأمان</h3>
+                            <p class="voice-card__text">قصة عائلة الشنطي التي هربت من القصف المتواصل على غزة لتبدأ حياة
+                                جديدة في إسطنبول، بين الحنين والتأقلم.</p>
+                            <div class="voice-card__footer">
+                                <div class="voice-card__author">
+                                    <div class="voice-card__avatar">
+                                        <div class="ph-av"></div>
+                                    </div>
+                                    <div>
+                                        <div class="voice-card__author-name">عائلة الشنطي</div>
+                                        <div class="voice-card__date">منذ أسبوع</div>
+                                    </div>
+                                </div>
+                                <div class="voice-card__play"><svg width="16" height="16" viewBox="0 0 24 24"
+                                        fill="#fff">
+                                        <polygon points="5 3 19 12 5 21 5 3" />
+                                    </svg></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- فلسطينيو تركيا -->
+            <section class="cat-section">
+                <div class="container">
+                    <div class="sh">
+                        <h2 class="sh__title"><i class="fa-solid fa-users sh__icon"></i> فلسطينيو تركيا</h2><a href="#"
+                            class="sh__more">عرض الكل <i class="fa-solid fa-arrow-left sh__arrow"></i></a>
+                    </div>
+                    <div class="cat-grid">
+                        <article class="cat-card animate-in animate-delay-1">
+                            <div class="cat-card__img">
+                                <div class="ph ph-1" style="min-height:200px;"></div><span class="badge-f"
+                                    style="background:var(--color-accent);">فعاليات</span>
+                            </div>
+                            <div class="cat-card__body">
+                                <h3 class="cat-card__title">مؤسسة وقف فلسطين تطلق حملة "القدس المصغرة" لتعريف الأتراك
+                                    بالأقصى</h3>
+                                <div class="cat-card__meta"><span>منذ يومين</span><span>•</span><span>478 مشاهدة</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="cat-card animate-in animate-delay-2">
+                            <div class="cat-card__img">
+                                <div class="ph ph-2" style="min-height:200px;"></div><span class="badge-f">مجتمع</span>
+                            </div>
+                            <div class="cat-card__body">
+                                <h3 class="cat-card__title">الجالية الفلسطينية في إسطنبول تحيي ذكرى يوم الأرض بفعاليات
+                                    متنوعة</h3>
+                                <div class="cat-card__meta"><span>منذ 3 أيام</span><span>•</span><span>362 مشاهدة</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="cat-card animate-in animate-delay-3">
+                            <div class="cat-card__img">
+                                <div class="ph ph-3" style="min-height:200px;"></div><span class="badge-f"
+                                    style="background:var(--color-gold);">حوارات</span>
+                            </div>
+                            <div class="cat-card__body">
+                                <h3 class="cat-card__title">شبكة شباب فلسطين تناقش دور الشباب في مواجهة التطبيع بندوة
+                                    إلكترونية</h3>
+                                <div class="cat-card__meta"><span>منذ 4 أيام</span><span>•</span><span>521 مشاهدة</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="cat-card animate-in animate-delay-4">
+                            <div class="cat-card__img">
+                                <div class="ph ph-4" style="min-height:200px;"></div><span class="badge-f"
+                                    style="background:var(--color-accent-light);">تعليم</span>
+                            </div>
+                            <div class="cat-card__body">
+                                <h3 class="cat-card__title">اتحاد الأكاديميين يعقد مؤتمره السنوي لمناقشة واقع التعليم
+                                    الفلسطيني</h3>
+                                <div class="cat-card__meta"><span>منذ أسبوع</span><span>•</span><span>289 مشاهدة</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AD BANNER 3 — بين الكاتجوري والأكثر قراءة -->
+            <div class="ad-banner">
+                <div class="container">
+                    <a href="#" class="ad-banner__link" target="_blank" rel="noopener">
+                        <img src="https://dummyimage.com/728x90/1B5E20/ffffff&text=إعلان+728x90" alt="إعلان" class="ad-banner__img">
+                    </a>
+                </div>
+            </div>
+
+            <!-- MOST READ -->
+            <section class="mr-section">
+                <div class="container">
+                    <div class="sh">
+                        <h2 class="sh__title"><i class="fa-solid fa-fire-flame-curved sh__icon"></i> الأكثر قراءة</h2>
+                    </div>
+                    <div class="mr-grid">
+                        <article class="mr-item animate-in animate-delay-1">
+                            <div class="mr-item__rank">01</div>
+                            <h3 class="mr-item__title">حماس تنعى القياديين كساب وعايش بعد استهداف سيارتهما بغارة
+                                إسرائيلية</h3><span class="mr-item__meta">منذ ساعتين</span>
+                        </article>
+                        <article class="mr-item animate-in animate-delay-2">
+                            <div class="mr-item__rank">02</div>
+                            <h3 class="mr-item__title">الأمم المتحدة تطالب بتحقيق فوري في جرائم الاحتلال بحق المدنيين
+                            </h3><span class="mr-item__meta">منذ 4 ساعات</span>
+                        </article>
+                        <article class="mr-item animate-in animate-delay-3">
+                            <div class="mr-item__rank">03</div>
+                            <h3 class="mr-item__title">تعرف على موقع مكتب مراجعة الأجانب الجديد في إسطنبول</h3><span
+                                class="mr-item__meta">منذ 6 ساعات</span>
+                        </article>
+                        <article class="mr-item animate-in animate-delay-4">
+                            <div class="mr-item__rank">04</div>
+                            <h3 class="mr-item__title">القمة العربية الإسلامية تدعو لحماية المقدسات في القدس المحتلة
+                            </h3><span class="mr-item__meta">منذ 8 ساعات</span>
+                        </article>
+                        <article class="mr-item animate-in animate-delay-5">
+                            <div class="mr-item__rank">05</div>
+                            <h3 class="mr-item__title">من هو وزير التعليم التركي الجديد وماذا قال فور توليه منصبه</h3>
+                            <span class="mr-item__meta">منذ يوم</span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- OPINION -->
+            <section class="op-section">
+                <div class="container">
+                    <div class="sh">
+                        <h2 class="sh__title"><i class="fa-solid fa-pen-fancy sh__icon"></i> آراء ومقالات</h2><a href="#"
+                            class="sh__more">عرض الكل <i class="fa-solid fa-arrow-left sh__arrow"></i></a>
+                    </div>
+                    <div class="op-grid">
+                        <article class="op-card animate-in animate-delay-1">
+                            <div class="op-card__author">
+                                <div class="op-card__avatar">
+                                    <img src="https://i.pravatar.cc/100?img=12" alt="د. أحمد المصري">
+                                </img>
+                                <div>
+                                    <div class="op-card__name">د. أحمد المصري</div>
+                                    <div class="op-card__role">كاتب وباحث سياسي</div>
+                                </div>
+                            </div>
+                            <h3 class="op-card__title">مستقبل القضية الفلسطينية في ضوء التحولات الإقليمية الجديدة</h3>
+                            <p class="op-card__text">تشهد المنطقة تحولات جذرية تفرض على الفلسطينيين إعادة قراءة المشهد
+                                السياسي والبحث عن استراتيجيات جديدة.</p>
+                        </article>
+                        <article class="op-card animate-in animate-delay-2">
+                            <div class="op-card__author">
+                                <div class="op-card__avatar">
+                                    <img src="https://i.pravatar.cc/100?img=32" alt="أ. فاطمة الخالدي">
+                                </div>
+                                <div>
+                                    <div class="op-card__name">أ. فاطمة الخالدي</div>
+                                    <div class="op-card__role">إعلامية ومحللة</div>
+                                </div>
+                            </div>
+                            <h3 class="op-card__title">الإعلام الفلسطيني في تركيا: تحديات وفرص في عصر التحول الرقمي</h3>
+                            <p class="op-card__text">يواجه الإعلام الفلسطيني في تركيا تحديات فريدة تتعلق باللغة والوصول
+                                إلى الجمهور التركي.</p>
+                        </article>
+                        <article class="op-card animate-in animate-delay-3">
+                            <div class="op-card__author">
+                                <div class="op-card__avatar">
+                                    <img src="https://i.pravatar.cc/100?img=59" alt="د. محمد العلي">
+                                </div>
+                                <div>
+                                    <div class="op-card__name">د. محمد العلي</div>
+                                    <div class="op-card__role">أكاديمي وكاتب</div>
+                                </div>
+                            </div>
+                            <h3 class="op-card__title">دور الشباب الفلسطيني في أوروبا: بين الاندماج والحفاظ على الهوية
+                            </h3>
+                            <p class="op-card__text">يعيش الشباب الفلسطيني في أوروبا حالة من التوازن الصعب بين الاندماج
+                                والحفاظ على الهوية.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__main">
+                        <!-- Brand Column -->
+                        <div class="footer__brand">
+                            <a href="#" class="footer__logo-link">
+                                <img src="images/logo.svg" alt="فيميد - FiMED" class="footer__logo">
+                            </a>
+                            <p class="footer__about">مؤسسة إعلامية فلسطينية متخصصة في مخاطبة المجتمع التركي عن فلسطين والقدس وآخر التطورات حول القضية الفلسطينية وتغطية الفعاليات في تركيا.</p>
+                            <div class="footer__social">
+                                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Links Columns -->
+                        <div class="footer__columns">
+                            <div class="footer__col">
+                                <h4 class="footer__col-title">الأقسام</h4>
+                                <ul class="footer__links">
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> فلسطين</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> القدس</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> تركيا</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> العالم العربي</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> فلسطينيو تركيا</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> تقارير</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__col">
+                                <h4 class="footer__col-title">خدمات</h4>
+                                <ul class="footer__links">
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> آراء ومقالات</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> بتوقيت القدس</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> صوت فلسطين</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> إنفوجرافيك</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> RSS</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__col">
+                                <h4 class="footer__col-title">تواصل معنا</h4>
+                                <ul class="footer__links">
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> من نحن</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> فريق العمل</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> سياسة الخصوصية</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> شروط الاستخدام</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-left"></i> اتصل بنا</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Footer Bottom -->
+                    <div class="footer__bottom">
+                        <p class="footer__copyright">
+                            <i class="fa-regular fa-copyright"></i>
+                            2026 فيميد - المؤسسة الفلسطينية للإعلام. جميع الحقوق محفوظة.
+                        </p>
+                        <p class="footer__credit">
+                            تصميم وتطوير بواسطة <a href="#" target="_blank">TakTek</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+
+        <!-- Scripts -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
