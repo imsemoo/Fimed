@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="جميع المقالات - فيميد - المؤسسة الفلسطينية للإعلام">
+        <title>جميع المقالات | فيميد</title>
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Pages CSS -->
+        <link rel="stylesheet" href="css/pages.css">
+    </head>
+
+    <body>
+
+        <!-- TOP BAR -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar__date">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    السبت 01 شوال 1447 هـ — 1 فبراير 2026 م
+                </div>
+                <div class="top-bar__links">
+                    <a href="#">من نحن</a>
+                    <a href="#">تواصل معنا</a>
+                    <a href="#">سياسة الخصوصية</a>
+                    <div class="top-bar__lang">
+                        <i class="fa-solid fa-globe"></i>
+                        Türkçe
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <button class="nav__toggle" id="navToggle" aria-label="القائمة">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a href="index.html" class="header__brand">
+                    <img src="images/logo.svg" alt="فيميد - FiMED" class="header__logo-img">
+                </a>
+                <div class="header__actions">
+                    <button class="header__search-btn" aria-label="بحث">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <div class="header__search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="ابحث في التقارير والمقالات...">
+                    </div>
+                    <div class="header__social">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- NAV -->
+        <nav class="nav" id="mainNav">
+            <div class="container">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">الرئيسية</a></li>
+                    <li><a href="#" class="nav__link">فلسطين</a></li>
+                    <li><a href="#" class="nav__link">القدس</a></li>
+                    <li><a href="#" class="nav__link">تركيا</a></li>
+                    <li><a href="#" class="nav__link">العالم العربي</a></li>
+                    <li><a href="#" class="nav__link">فلسطينيو تركيا</a></li>
+                    <li><a href="#" class="nav__link">تقارير</a></li>
+                    <li><a href="#" class="nav__link">صوت فلسطين</a></li>
+                    <li><a href="articles.html" class="nav__link nav__link--active">آراء ومقالات</a></li>
+                </ul>
+                <div class="nav__overlay"></div>
+            </div>
+        </nav>
+
+        <!-- PAGE BANNER -->
+        <section class="page-banner">
+            <div class="container">
+                <div class="page-banner__content">
+                    <div class="page-banner__breadcrumb">
+                        <a href="index.html"><i class="fa-solid fa-house"></i> الرئيسية</a>
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <span>جميع المقالات</span>
+                    </div>
+                    <h1 class="page-banner__title">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                        جميع المقالات
+                    </h1>
+                    <p class="page-banner__subtitle">
+                        اكتشف آراء ومقالات نخبة من الكتّاب والمحللين حول القضية الفلسطينية والشؤون العربية والتركية
+                    </p>
+                    <div class="page-banner__stats">
+                        <div class="page-banner__stat">
+                            <div class="page-banner__stat-icon">
+                                <i class="fa-solid fa-newspaper"></i>
+                            </div>
+                            <div>
+                                <div class="page-banner__stat-num">248</div>
+                                <div class="page-banner__stat-text">مقال منشور</div>
+                            </div>
+                        </div>
+                        <div class="page-banner__stat">
+                            <div class="page-banner__stat-icon">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div>
+                                <div class="page-banner__stat-num">32</div>
+                                <div class="page-banner__stat-text">كاتب ومحلل</div>
+                            </div>
+                        </div>
+                        <div class="page-banner__stat">
+                            <div class="page-banner__stat-icon">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div>
+                                <div class="page-banner__stat-num">156K</div>
+                                <div class="page-banner__stat-text">قراءة شهرياً</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FILTER SECTION -->
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-wrapper">
+                    <!-- Main Filter Row - Always Visible -->
+                    <div class="filter-main">
+                        <div class="filter-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="ابحث بعنوان المقال أو الكاتب...">
+                        </div>
+                        <div class="filter-select">
+                            <select>
+                                <option value="">التصنيفات</option>
+                                <option value="politics">سياسة</option>
+                                <option value="analysis">تحليلات</option>
+                                <option value="opinion">رأي</option>
+                                <option value="culture">ثقافة</option>
+                            </select>
+                        </div>
+                        <div class="filter-select">
+                            <select>
+                                <option value="">الكتّاب</option>
+                                <option value="1">د. أحمد المصري</option>
+                                <option value="2">أ. فاطمة الخالدي</option>
+                                <option value="3">د. محمد العلي</option>
+                            </select>
+                        </div>
+                        <button class="filter-toggle-btn" id="advancedToggle">
+                            <i class="fa-solid fa-sliders"></i>
+                            متقدم
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <button class="filter-btn filter-btn--primary">
+                            <i class="fa-solid fa-search"></i>
+                            بحث
+                        </button>
+                    </div>
+
+                    <!-- Advanced Filter - Collapsible -->
+                    <div class="filter-advanced" id="advancedFilter">
+                        <div class="filter-advanced-row">
+                            <div class="filter-date-group">
+                                <label>من:</label>
+                                <input type="date" value="2026-01-01">
+                            </div>
+                            <div class="filter-date-group">
+                                <label>إلى:</label>
+                                <input type="date" value="2026-02-01">
+                            </div>
+                            <button class="filter-btn filter-btn--secondary">
+                                <i class="fa-solid fa-rotate-right"></i>
+                                إعادة ضبط
+                            </button>
+                        </div>
+                        <div class="filter-tags">
+                            <span class="filter-tag active"><i class="fa-solid fa-fire"></i> الأحدث</span>
+                            <span class="filter-tag"><i class="fa-solid fa-eye"></i> الأكثر قراءة</span>
+                            <span class="filter-tag"><i class="fa-solid fa-star"></i> مميز</span>
+                            <span class="filter-tag"><i class="fa-solid fa-globe"></i> فلسطين</span>
+                            <span class="filter-tag"><i class="fa-solid fa-mosque"></i> القدس</span>
+                            <span class="filter-tag"><i class="fa-solid fa-flag"></i> تركيا</span>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Bar -->
+                    <div class="filter-bottom">
+                        <div class="filter-results-count">
+                            عرض <strong>24</strong> مقال من أصل <strong>248</strong>
+                        </div>
+                        <div class="filter-view-toggle">
+                            <button class="filter-view-btn" title="عرض قائمة">
+                                <i class="fa-solid fa-list"></i>
+                            </button>
+                            <button class="filter-view-btn active" title="عرض شبكي">
+                                <i class="fa-solid fa-grip"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ARTICLES SECTION -->
+        <section class="articles-section">
+            <div class="container">
+                <div class="articles-grid" id="articlesGrid">
+                    <!-- Article 1 -->
+                    <article class="article-card">
+                        <div class="article-card__img">
+                            <a href="article.html" class="article-card__img-link">
+                                <img src="https://picsum.photos/seed/art1/600/400" alt="مستقبل القضية الفلسطينية">
+                            </a>
+                            <span class="article-card__badge"><i class="fa-solid fa-star"></i> مميز</span>
+                        </div>
+                        <div class="article-card__body">
+                            <span class="article-card__cat"><i class="fa-solid fa-folder"></i> سياسة</span>
+                            <h3 class="article-card__title">
+                                <a href="article.html">مستقبل القضية الفلسطينية في ضوء التحولات الإقليمية الجديدة</a>
+                            </h3>
+                            <p class="article-card__excerpt">تشهد المنطقة تحولات جذرية تفرض على الفلسطينيين إعادة قراءة
+                                المشهد السياسي والبحث عن استراتيجيات جديدة للتعامل مع المتغيرات.</p>
+                            <div class="article-card__footer">
+                                <div class="article-card__author">
+                                    <div class="article-card__avatar">
+                                        <img src="https://i.pravatar.cc/100?img=12" alt="د. أحمد المصري">
+                                    </div>
+                                    <div class="article-card__author-info">
+                                        <span class="article-card__author-name">د. أحمد المصري</span>
+                                        <span class="article-card__date"><i class="fa-regular fa-calendar"></i> 1 فبراير
+                                            2026</span>
+                                    </div>
+                                </div>
+                                <a href="article.html" class="article-card__read"><i class="fa-solid fa-arrow-left"></i>
+                                    اقرأ</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="article-card">
+                        <div class="article-card__img">
+                            <a href="article.html" class="article-card__img-link">
+                                <img src="https://picsum.photos/seed/art2/600/400" alt="الإعلام الفلسطيني">
+                            </a>
+                        </div>
+                        <div class="article-card__body">
+                            <span class="article-card__cat"><i class="fa-solid fa-folder"></i> إعلام</span>
+                            <h3 class="article-card__title">
+                                <a href="article.html">الإعلام الفلسطيني في تركيا: تحديات وفرص في عصر التحول الرقمي</a>
+                            </h3>
+                            <p class="article-card__excerpt">يواجه الإعلام الفلسطيني في تركيا تحديات فريدة تتعلق باللغة
+                                والوصول إلى الجمهور التركي والعربي على حد سواء.</p>
+                            <div class="article-card__footer">
+                                <div class="article-card__author">
+                                    <div class="article-card__avatar">
+                                        <img src="https://i.pravatar.cc/100?img=32" alt="أ. فاطمة الخالدي">
+                                    </div>
+                                    <div class="article-card__author-info">
+                                        <span class="article-card__author-name">أ. فاطمة الخالدي</span>
+                                        <span class="article-card__date"><i class="fa-regular fa-calendar"></i> 31 يناير
+                                            2026</span>
+                                    </div>
+                                </div>
+                                <a href="article.html" class="article-card__read"><i class="fa-solid fa-arrow-left"></i>
+                                    اقرأ</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="article-card">
+                        <div class="article-card__img">
+                            <a href="article.html" class="article-card__img-link">
+                                <img src="https://picsum.photos/seed/art3/600/400" alt="دور الشباب الفلسطيني">
+                            </a>
+                        </div>
+                        <div class="article-card__body">
+                            <span class="article-card__cat"><i class="fa-solid fa-folder"></i> مجتمع</span>
+                            <h3 class="article-card__title">
+                                <a href="article.html">دور الشباب الفلسطيني في أوروبا: بين الاندماج والحفاظ على
+                                    الهوية</a>
+                            </h3>
+                            <p class="article-card__excerpt">يعيش الشباب الفلسطيني في أوروبا حالة من التوازن الصعب بين
+                                الاندماج في المجتمعات الأوروبية والحفاظ على هويتهم.</p>
+                            <div class="article-card__footer">
+                                <div class="article-card__author">
+                                    <div class="article-card__avatar">
+                                        <img src="https://i.pravatar.cc/100?img=59" alt="د. محمد العلي">
+                                    </div>
+                                    <div class="article-card__author-info">
+                                        <span class="article-card__author-name">د. محمد العلي</span>
+                                        <span class="article-card__date"><i class="fa-regular fa-calendar"></i> 30 يناير
+                                            2026</span>
+                                    </div>
+                                </div>
+                                <a href="article.html" class="article-card__read"><i class="fa-solid fa-arrow-left"></i>
+                                    اقرأ</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 4 -->
+                    <article class="article-card">
+                        <div class="article-card__img">
+                            <a href="article.html" class="article-card__img-link">
+                                <img src="https://picsum.photos/seed/art4/600/400" alt="العلاقات التركية الفلسطينية">
+                            </a>
+                            <span class="article-card__badge"><i class="fa-solid fa-fire"></i> رائج</span>
+                        </div>
+                        <div class="article-card__body">
+                            <span class="article-card__cat"><i class="fa-solid fa-folder"></i> تحليلات</span>
+                            <h3 class="article-card__title">
+                                <a href="article.html">العلاقات التركية الفلسطينية: قراءة في المستجدات والتحديات</a>
+                            </h3>
+                            <p class="article-card__excerpt">تمثل العلاقات التركية الفلسطينية نموذجاً فريداً في دعم
+                                القضية الفلسطينية على المستوى الدولي والإقليمي.</p>
+                            <div class="article-card__footer">
+                                <div class="article-card__author">
+                                    <div class="article-card__avatar">
+                                        <img src="https://i.pravatar.cc/100?img=15" alt="أ. خالد النجار">
+                                    </div>
+                                    <div class="article-card__author-info">
+                                        <span class="article-card__author-name">أ. خالد النجار</span>
+                                        <span class="article-card__date"><i class="fa-regular fa-calendar"></i> 29 يناير
+                                            2026</span>
+                                    </div>
+                                </div>
+                                <a href="article.html" class="article-card__read"><i class="fa-solid fa-arrow-left"></i>
+                                    اقرأ</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 5 -->
+                    <article class="article-card">
+                        <div class="article-card__img">
+                            <a href="article.html" class="article-card__img-link">
+                                <img src="https://picsum.photos/seed/art5/600/400" alt="المسجد الأقصى">
+                            </a>
+                        </div>
+                        <div class="article-card__body">
+                            <span class="article-card__cat"><i class="fa-solid fa-folder"></i> القدس</span>
+                            <h3 class="article-card__title">
+                                <a href="article.html">المسجد الأقصى: التهديدات المتصاعدة ومسؤولية الأمة</a>
+                            </h3>
+                            <p class="article-card__excerpt">تتصاعد التهديدات التي يواجهها المسجد الأقصى المبارك يوماً
+                                بعد يوم، مما يستدعي موقفاً موحداً من الأمة.</p>
+                            <div class="article-card__footer">
+                                <div class="article-card__author">
+                                    <div class="article-card__avatar">
+                                        <img src="https://i.pravatar.cc/100?img=22" alt="د. سلمى المقدسي">
+                                    </div>
+                                    <div class="article-card__author-info">
+                                        <span class="article-card__author-name">د. سلمى المقدسي</span>
+                                        <span class="article-card__date"><i class="fa-regular fa-calendar"></i> 28 يناير
+                                            2026</span>
+                                    </div>
+                                </div>
+                                <a href="article.html" class="article-card__read"><i class="fa-solid fa-arrow-left"></i>
+                                    اقرأ</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 6 -->
+                    <article class="article-card">
+                        <div class="article-card__img">
+                            <a href="article.html" class="article-card__img-link">
+                                <img src="https://picsum.photos/seed/art6/600/400" alt="الأسرى الفلسطينيون">
+                            </a>
+                        </div>
+                        <div class="article-card__body">
+                            <span class="article-card__cat"><i class="fa-solid fa-folder"></i> حقوق الإنسان</span>
+                            <h3 class="article-card__title">
+                                <a href="article.html">الأسرى الفلسطينيون: معاناة مستمرة وصمود لا ينكسر</a>
+                            </h3>
+                            <p class="article-card__excerpt">يواصل الأسرى الفلسطينيون في سجون الاحتلال نضالهم اليومي في
+                                مواجهة سياسات القمع الممنهجة.</p>
+                            <div class="article-card__footer">
+                                <div class="article-card__author">
+                                    <div class="article-card__avatar">
+                                        <img src="https://i.pravatar.cc/100?img=45" alt="أ. نادية الشامي">
+                                    </div>
+                                    <div class="article-card__author-info">
+                                        <span class="article-card__author-name">أ. نادية الشامي</span>
+                                        <span class="article-card__date"><i class="fa-regular fa-calendar"></i> 27 يناير
+                                            2026</span>
+                                    </div>
+                                </div>
+                                <a href="article.html" class="article-card__read"><i class="fa-solid fa-arrow-left"></i>
+                                    اقرأ</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <button class="pagination__btn pagination__btn--arrow">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                    <button class="pagination__btn active">1</button>
+                    <button class="pagination__btn">2</button>
+                    <button class="pagination__btn">3</button>
+                    <button class="pagination__btn">4</button>
+                    <button class="pagination__btn">...</button>
+                    <button class="pagination__btn">11</button>
+                    <button class="pagination__btn pagination__btn--arrow">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__main">
+                    <!-- Brand Column -->
+                    <div class="footer__brand">
+                        <a href="#" class="footer__logo-link">
+                            <img src="images/logo.svg" alt="فيميد - FiMED" class="footer__logo">
+                        </a>
+                        <p class="footer__about">مؤسسة إعلامية فلسطينية متخصصة في مخاطبة المجتمع التركي عن فلسطين والقدس
+                            وآخر التطورات حول القضية الفلسطينية وتغطية الفعاليات في تركيا.</p>
+                        <div class="footer__social">
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Links Columns -->
+                    <div class="footer__columns">
+                        <div class="footer__col">
+                            <h4 class="footer__col-title">الأقسام</h4>
+                            <ul class="footer__links">
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> فلسطين</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> القدس</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> تركيا</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> العالم العربي</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> فلسطينيو تركيا</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> تقارير</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <h4 class="footer__col-title">خدمات</h4>
+                            <ul class="footer__links">
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> آراء ومقالات</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> بتوقيت القدس</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> صوت فلسطين</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> إنفوجرافيك</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> RSS</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <h4 class="footer__col-title">تواصل معنا</h4>
+                            <ul class="footer__links">
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> من نحن</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> فريق العمل</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> سياسة الخصوصية</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> شروط الاستخدام</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i> اتصل بنا</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Bottom -->
+                <div class="footer__bottom">
+                    <p class="footer__copyright">
+                        <i class="fa-regular fa-copyright"></i>
+                        2026 فيميد - المؤسسة الفلسطينية للإعلام. جميع الحقوق محفوظة.
+                    </p>
+                    <p class="footer__credit">
+                        تصميم وتطوير بواسطة <a href="#" target="_blank">TakTek</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="js/main.js"></script>
+        <script src="js/articles.js"></script>
+    </body>
+
+</html>
